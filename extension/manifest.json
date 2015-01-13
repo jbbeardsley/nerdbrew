@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "NerdBrew",
+  "version": "1.0",
+  "description": "This extension allows Nerds to request brews through BeerAdvocate or RateBeer",
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+    "declarativeContent"
+  ],
+
+  "page_action": {
+    "default_icon": "nerdbrew_icon.png",
+    "default_popup": "nerdbrew.html"
+  }
+}
