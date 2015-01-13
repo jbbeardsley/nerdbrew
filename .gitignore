@@ -1,0 +1,5 @@
+*.suo
+*.user
+NerdBrew.Web/bin/
+NerdBrew.Web/obj/
+packages/
